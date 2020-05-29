@@ -40,6 +40,8 @@ public final class Main
      */
     public static void main(String[] args)
     {
-        new Main(args).start();
+    	Main main = new Main(args);
+    	main.start();
+        System.out.println(main.getMessage());
     }
 }
