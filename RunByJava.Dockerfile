@@ -1,7 +1,7 @@
 # The Docker file to build "docker-example-java" image project.
 
 ## Build ##
-### sudo docker build --no-cache  -t "docker-example-java:0.1" -f RunByJava.Dockerfile .
+### sudo docker build --no-cache -t "docker-example-java:0.1" -f RunByJava.Dockerfile .
 ### sudo docker images -a | grep docker-example-java
 
 ## Check content ##
